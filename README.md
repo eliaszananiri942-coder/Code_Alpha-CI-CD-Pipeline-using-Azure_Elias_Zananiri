@@ -1,5 +1,8 @@
 # CodeAlpha CI/CD Pipeline using Azure
 
+"Through this project, I learned the critical importance of decoupling Continuous Integration from Continuous Deployment. When generic API deployment methods failed due to environment translation conflicts, I pivoted the architecture to a cloud-native webhook model. >
+I gained practical experience managing secure registries, automating Docker image builds through GitHub Actions, and managing cloud runtime secrets securely. Most importantly, I learned how to deep-dive into the Azure control plane using the CLI to audit app settings, verify image tags, and validate a fully automated, production-ready pipeline."
+
 An automated, cloud-native Continuous Integration and Continuous Deployment (CI/CD) pipeline built to containerize and deploy a web application to **Azure App Service** via **Azure Container Registry (ACR)** using **GitHub Actions**.
 
 ## 🏗️ Architecture Overview
